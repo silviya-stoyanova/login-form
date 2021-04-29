@@ -12,11 +12,7 @@
         grid-template-columns: minmax(250px, 330px);
         text-align: center;
         background: $white;
-        padding: 20px 30px;
-
-        @media (min-width: 600px) {
-            padding: 40px 70px;
-        }
+        padding: 70px 30px;
 
         @media (min-width: 600px) {
             padding: 80px 140px;
