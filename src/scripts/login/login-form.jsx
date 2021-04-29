@@ -6,7 +6,7 @@ import { strings } from '../constants/constants';
 const { email, password, login } = strings;
 
 const LoginForm = () => (
-    <form className="login-form">
+    <form action="#" className="login-form" method="">
         <input
             className="login-form-field"
             placeholder={email}
@@ -19,7 +19,9 @@ const LoginForm = () => (
             className="login-form-button"
             type="submit"
         >
-            {login}
+            <span className="login-form-button-text">
+                {login}
+            </span>
         </button>
     </form>
 );

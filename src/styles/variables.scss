@@ -1,15 +1,16 @@
 // Colors
-$orange: #EE6226;
-$white: #FFF;
-$light-gray: #D7D7D7;
-$gray: #C1C1C1;
-$dark-gray: #4A4A4A;
+$orange: #ee6226;
+$white: #fff;
+$light-gray: #d7d7d7;
+$gray: #c1c1c1;
+$dark-gray: #4a4a4a;
 
 // Gradients:
 $linear-gradient-primary: linear-gradient(180deg, $orange, $white);
+$linear-gradient-primary-to-left: linear-gradient(270deg, $orange, $white);
+$linear-gradient-primary-to-right: linear-gradient(90deg, $orange, $white);
 
 // Font sizes
 $f-size-21: 21px;
 $f-size-16: 16px;
 $f-size-13: 13px;
-

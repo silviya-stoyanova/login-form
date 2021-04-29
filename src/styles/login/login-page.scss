@@ -13,7 +13,7 @@
         text-align: center;
         background: $white;
         padding: 20px 30px;
-        
+
         @media (min-width: 600px) {
             padding: 40px 70px;
         }
@@ -32,9 +32,15 @@
     }
 
     &-forgotten-password {
+        justify-self: center;
         font: $f-size-13 Verdana, sans-serif;
         text-decoration: none;
-        padding-top: 20px;
+        margin-top: 20px;
         color: $dark-gray;
+        transition: 0.2s ease-in color;
+
+        &:hover {
+            color: $orange;
+        }
     }
 }
