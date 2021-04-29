@@ -13,12 +13,25 @@ const LoginForm = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handleFieldOnBlur = ({ target }) => {
+    const handleFieldChange = ({ target }) => {
+        const { name: fieldName } = target;
+        const { value } = target;
+        const emailValidationRegEx = /^[^@\s]+@[^@\s\.]+\.[^@\.\s]+$/;
 
+        if (fieldName === emailString) {
+            const isValid = value.match(emailValidationRegEx);
+            isValid && setEmail(value);
+
+        } else if (fieldName === passwordString) {
+            setPassword(value);
+        }
     };
 
-    const handleSubmitBtnClick = ({ target }) => {
-        alert(`Wellcome, ${email}`);
+    const handleSubmitBtnClick = (event) => {
+        if (!email || !password) {
+            event.preventDefault();
+            alert(`Invalid data!`);
+        }
     };
 
     return (
@@ -30,12 +43,14 @@ const LoginForm = () => {
             <input
                 className="login-form-field"
                 placeholder={emailString}
-                onBlur={handleFieldOnBlur}
+                name={emailString}
+                onChange={handleFieldChange}
             />
             <input
                 className="login-form-field"
                 placeholder={passwordString}
-                onBlur={handleFieldOnBlur}
+                name={passwordString}
+                onChange={handleFieldChange}
             />
             <button
                 className="login-form-button"
