@@ -30,7 +30,7 @@ ___
  ┃  ┃ ┃ 📂 common-components
  ┃  ┃ ┃ 📂 constants
  ┃  ┃ ┃ 📜 breakpoints.scss
- ┃  ┗ ┗ 📜 variables.scss
+ ┃  ┃ ┗ 📜 variables.scss
  ┣  ┃ 📜 index.js
  ┣  ┃ 📜 index.css
  ┣  ┗ 📜 Login.js
