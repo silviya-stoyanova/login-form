@@ -23,7 +23,8 @@ const LoginForm = () => {
             isValid && setEmail(value);
 
         } else if (fieldName === passwordString) {
-            setPassword(value);
+            const isValid = value.length >= 3;
+            isValid && setPassword(value);
         }
     };
 
