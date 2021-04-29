@@ -19,21 +19,21 @@ ___
  ┃  ┃ 📜 index.html
  ┃  ┗ other public files 
  ┣  📂 src
- ┃  ┃ 📂 assets
+ ┃  ┣ 📂 assets
  ┃  ┃ ┃ 📂 icons
  ┃  ┃ ┗ 📂 images
- ┃  ┃ 📂 scripts
+ ┃  ┣ 📂 scripts
  ┃  ┃ ┃ 📂 common-components
  ┃  ┃ ┃ 📂 constants
  ┃  ┃ ┗ 📂 login
- ┃  ┃ 📂 styles
+ ┃  ┣ 📂 styles
  ┃  ┃ ┃ 📂 common-components
  ┃  ┃ ┃ 📂 constants
  ┃  ┃ ┃ 📜 breakpoints.scss
  ┃  ┃ ┗ 📜 variables.scss
- ┣  ┃ 📜 index.js
- ┣  ┃ 📜 index.css
- ┣  ┗ 📜 Login.js
+ ┃  ┃ 📜 index.js
+ ┃  ┃ 📜 index.css
+ ┃  ┗ 📜 Login.js
  ┣  📜 .gitignore
  ┣  📜 package-lock.json
  ┣  📜 package.json
