@@ -1,15 +1,15 @@
 # Simple login form with ReactJS and SCSS
-You can find it here: [login-form-snowy.vercel.app/login](https://login-form-snowy.vercel.app/login "Login form")
-___
+You can find it here: [login-form-silviya-stoyanova.vercel.app/login](https://login-form-silviya-stoyanova.vercel.app/login "Login form")
+
 ## Validation:
 - Email should be valid.
 - Password must be at least 3 symbols.
-___
+
 ## Here is how I made it:
 - First I created the file structure. 
 - Then I added the components and their styles. 
 - And finally I added some functionality like event handlers.
-___
+
 ## File structure
 ```
 📦login-form
