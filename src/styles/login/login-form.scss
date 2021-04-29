@@ -1,0 +1,28 @@
+@import "../variables.scss";
+
+.login-form {
+    display: grid;
+    gap: 20px;
+
+    &-field {
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid $light-gray;
+        padding: 12px;
+        font: $f-size-16 Verdana, sans-serif;
+        
+        &::placeholder {
+            color: $gray;
+        }
+    }
+    
+    &-button {
+        font: $f-size-16 Verdana, sans-serif;
+        text-transform: uppercase;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        color: $white;
+        background: $light-gray;
+    }
+}

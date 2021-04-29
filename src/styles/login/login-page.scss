@@ -1,0 +1,40 @@
+@import "../variables.scss";
+
+.login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $linear-gradient-primary;
+
+    &-page-content-wrapper {
+        display: grid;
+        grid-template-columns: minmax(250px, 330px);
+        text-align: center;
+        background: $white;
+        padding: 20px 30px;
+        
+        @media (min-width: 600px) {
+            padding: 40px 70px;
+        }
+
+        @media (min-width: 600px) {
+            padding: 80px 140px;
+        }
+    }
+
+    &-title {
+        margin: 0;
+        font: $f-size-21 Verdana, sans-serif;
+        text-transform: uppercase;
+        color: $dark-gray;
+        padding-bottom: 30px;
+    }
+
+    &-forgotten-password {
+        font: $f-size-13 Verdana, sans-serif;
+        text-decoration: none;
+        padding-top: 20px;
+        color: $dark-gray;
+    }
+}

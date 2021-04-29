@@ -1,3 +1,5 @@
+import '../../styles/login/login-form.scss';
+
 import React from 'react';
 import { strings } from '../constants/constants';
 

@@ -1,4 +1,3 @@
-import './App.css';
 import LoginPage from './scripts/login/login-page';
 
 const App = () => (

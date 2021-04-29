@@ -1,3 +1,5 @@
+import '../../styles/common-components/link.scss';
+
 import React from 'react';
 
 const Link = ({ href, text, children, className }) => {

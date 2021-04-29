@@ -1,8 +1,8 @@
 const strings = {
     forgotYourPassword: 'Forgot your password?',
     loginToYourAccount: 'login to your account',
-    email: 'e-mail',
-    password: 'password',
+    email: 'E-mail',
+    password: 'Password',
     login: 'login',
 };
 
