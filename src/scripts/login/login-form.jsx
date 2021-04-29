@@ -16,7 +16,7 @@ const LoginForm = () => {
     const handleFieldChange = ({ target }) => {
         const { name: fieldName } = target;
         const { value } = target;
-        const emailValidationRegEx = /^[^@\s]+@[^@\s\.]+\.[^@\.\s]+$/;
+        const emailValidationRegEx = /^[^@\s]+@[^@\s.]+\.[^@.\s]+$/;
 
         if (fieldName === emailString) {
             const isValid = value.match(emailValidationRegEx);
