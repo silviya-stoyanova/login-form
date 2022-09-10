@@ -1,0 +1,21 @@
+{
+  "id": "login-form-wl10j1n",
+  "name": "login-form",
+  "created": "2022-09-10T12:59:58.437Z",
+  "description": "",
+  "blueprints": [
+    {
+      "version": "2019-10-24",
+      "connections": {},
+      "resources": {},
+      "metadata": {
+        "designer": {
+          "resourcePositions": {}
+        }
+      },
+      "id": "login-form-w400jz9",
+      "name": "login-form"
+    }
+  ],
+  "type": "altostra"
+}
